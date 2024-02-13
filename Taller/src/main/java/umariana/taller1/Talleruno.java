@@ -55,7 +55,7 @@ public class Talleruno {
                 case 2:
                     
                     System.out.println("TAREAS REGISTRADAS");
-                    //for para recorrer el array y muestre las tareas 
+                  
                     for (Tarea t: misTareas) {
                         System.out.println("id: " + "" + t.getIdTarea() );
                         System.out.println("descripcion: " + "" + t.getDescripcion());
