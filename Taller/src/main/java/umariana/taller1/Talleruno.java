@@ -66,7 +66,7 @@ public class Talleruno {
                     // case 3 ordernar de manera descendente 
                 case 3:
                     // ordenar las tareas por prioridad de forma descendente
-                      Collections.sort(misTareas, (tarea1, tarea2) -> tarea2.getPrioridad() + tarea1.getPrioridad());
+                      Collections.sort(misTareas, (tarea1, tarea2) -> tarea2.getPrioridad() - tarea1.getPrioridad());
                     // mostrar las tareas ordenadas por prioridad de forma descendente
                      System.out.println("las tareas ordenadas descendete es:");
                      for (Tarea tarea : misTareas) {
